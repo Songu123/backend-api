@@ -28,6 +28,6 @@ public class AuthController {
 
     @GetMapping("/loginv2")
     public String login(){
-        return "Đăng nhập thành công";
+        return "Đăng nhập khong thành công";
     }
 }
