@@ -33,6 +33,6 @@ public class AuthController {
 
     @GetMapping("/registerv2")
     public String register(){
-        return "Đăng kí thành công";
+        return "Login succes";
     }
 }
