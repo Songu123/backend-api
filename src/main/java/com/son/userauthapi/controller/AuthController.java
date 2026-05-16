@@ -30,4 +30,9 @@ public class AuthController {
     public String login(){
         return "Đăng nhập thành công";
     }
+
+    @GetMapping("/registerv2")
+    public String login(){
+        return "Đăng kí thành công";
+    }
 }
