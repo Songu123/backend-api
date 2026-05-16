@@ -32,7 +32,7 @@ public class AuthController {
     }
 
     @GetMapping("/registerv2")
-    public String login(){
+    public String register(){
         return "Đăng kí thành công";
     }
 }
